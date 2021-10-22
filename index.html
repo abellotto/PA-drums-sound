@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Bateria</title>
+</head>
+
+<body>
+<H1>Bateria</H1>
+<div class="container">
+    
+    <div class="teclado">
+        <div class="tecla keyq">Q</div>
+        <div class="tecla keyw">W</div>
+        <div class="tecla keye">E</div>
+
+        <div class="tecla keya">A</div>
+        <div class="tecla keys">S</div>
+        <div class="tecla keyd">D</div>
+
+        <div class="tecla keyz">Z</div>
+        <div class="tecla keyx">X</div>
+        <div class="tecla keyc">C</div>
+    </div>
+    <div class="teclado--down">
+        <input type="text" class="inputComposer" placeholder="Faça uma composição...">
+        <button onclick="tocar()">Tocar</button>
+    </div>
+</div>
+
+<footer>Criado em aula da B7Web</footer>
+    
+<!-- Serão utilizados no JS para tocar os sons -->
+<audio id="s_keyq" src="sounds/keyq.wav"></audio>
+<audio id="s_keyw" src="sounds/keyw.wav"></audio>
+<audio id="s_keye" src="sounds/keye.wav"></audio>
+<audio id="s_keya" src="sounds/keya.wav"></audio>
+<audio id="s_keys" src="sounds/keys.wav"></audio>
+<audio id="s_keyd" src="sounds/keyd.wav"></audio>
+<audio id="s_keyz" src="sounds/keyz.wav"></audio>
+<audio id="s_keyx" src="sounds/keyx.wav"></audio>
+<audio id="s_keyc" src="sounds/keyc.wav"></audio>
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
