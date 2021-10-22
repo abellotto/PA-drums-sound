@@ -18,4 +18,3 @@ Esse projeto simula o toque de bateria utilizando as teclas do teclado. Além di
 - `querySelector`
 - `classList.remove`
 - `classList.add`
-`one`
