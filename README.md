@@ -12,9 +12,10 @@ O código não está totalmente igual o que foi feito no curso, pois primeiramen
 Esse projeto simula o toque de bateria utilizando as teclas do teclado. Além disso, permite a criação de uma composição e sua posterior reprodução.
 
 
-- utilizado a tag **audio** e sua manipulação via JavaScript
-- Utilização de timer com **setTimeout()**
-- Manipulação de eventos **addEventListener**
-- **querySelector**
-- **classList.remove**
-- **classList.add**
+- utilizado a tag `audio` e sua manipulação via JavaScript
+- Utilização de timer com `setTimeout()`
+- Manipulação de eventos `addEventListener`
+- `querySelector`
+- `classList.remove`
+- `classList.add`
+`one`
